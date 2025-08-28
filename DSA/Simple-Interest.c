@@ -10,13 +10,13 @@ int main (){
 
 int p,r,t;
 printf("Enter Principle:");
-scanf("%d",&p);
+scanf("%f",&p);
 
 printf("Enter Rate:");
-scanf("%d",&r);
+scanf("%f",&r);
 
 printf("Enter Time:");
-scanf("%d",&t);
+scanf("%f",&t);
 
 float result;
 result = simInt(p,r,t);
